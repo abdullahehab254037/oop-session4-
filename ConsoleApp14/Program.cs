@@ -295,4 +295,12 @@
 
 
     }
+    interface ITrackable
+    {
+        string GetTrackingStatus();
+    }
+    interface IInsurable
+    {
+        decimal CalculateInsurance();
+    }
 }
